@@ -143,6 +143,15 @@ a{
   height: 36px;
 }
 
+.fixed_line_back{
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 18px;
+}
+
 .p_main_about{
   display: flex;
   flex-direction: column;
@@ -212,8 +221,9 @@ a{
   display: flex;
   align-items: center;
   width: 32px;
-  height: 32px;
+  height: 30px;
   background-color: #fff;
+  border-radius: 48px;
 }
 
 .p_main_line_inner{
@@ -412,7 +422,7 @@ a{
   left: 204px;
 }
 
-.p_quiz_main_q1{
+.p_quiz_main{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -422,7 +432,7 @@ a{
   margin-bottom: 128px;
 }
 
-.p_quiz_main_q1 h1{
+.p_quiz_main h1{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -435,7 +445,7 @@ a{
   border-radius: 8px;
 }
 
-.p_quiz_main_q1 p{
+.p_quiz_main p{
   width: 984px;
   height: 108px;
   padding-top: 24px;
@@ -445,14 +455,14 @@ a{
   color: #333;
 }
 
-.p_quiz_main_q1 img{
+.p_quiz_main img{
   width: 680px;
   height: 320px;
   margin: 0 auto;
   padding-bottom: 64px;
 }
 
-.p_quiz_main_q1 h2{
+.p_quiz_main h2{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -465,7 +475,7 @@ a{
   border-radius: 8px;
 }
 
-.p_quiz_main_q1_option{
+.p_quiz_main_option{
   display: flex;
   justify-content: space-between;
   width: 984px;
@@ -473,16 +483,14 @@ a{
   margin-top: 16px;
 }
 
-.p_quiz_main_q1_option li{
+.p_quiz_main_item{
   display: flex;
   align-items: center;
   width: 280px;
   height: 80px;
   font-size: 18px;
   font-weight: 700;
-}
-
-.p_quiz_main_q1_item{
+  
   background-image: url(../img/icon/icon-arrow.svg);
   background-repeat: no-repeat;
   background-position: right 32px center;
@@ -492,7 +500,7 @@ a{
   cursor: pointer;
 }
 
-.p_quiz_main_q1_tips{
+.p_quiz_main_tips{
   display: flex;
   align-items: center;
   width: 984px;
@@ -502,7 +510,7 @@ a{
   border-radius: 8px;
 }
 
-.p_quiz_main_q1_tips img{
+.p_quiz_main_tips img{
   width: 20px;
   height: 15px;
   margin: 0;
@@ -510,7 +518,7 @@ a{
   padding-left: 25px;
 }
 
-.p_quiz_main_q1_tips p{
+.p_quiz_main_tips p{
   display: flex;
   align-items: center;
   width: 430px;
