@@ -195,7 +195,7 @@ a{
   width: 984px;
   height: 312px;
   padding-top: 43px;
-  padding-bottom: 140px;
+  padding-bottom: 12px;
 }
 
 .p_main_about_explanation img{
@@ -215,6 +215,7 @@ a{
   width: 984px;
   height: 357px;
   margin: 0 auto;
+  padding-top: 128px;
 }
 
 .p_main_line_back{
@@ -429,7 +430,6 @@ a{
   width: 984px;
   height: 900px;
   padding-top: 120px;
-  margin-bottom: 128px;
 }
 
 .p_quiz_main h1{
@@ -490,14 +490,85 @@ a{
   height: 80px;
   font-size: 18px;
   font-weight: 700;
-  
-  background-image: url(../img/icon/icon-arrow.svg);
-  background-repeat: no-repeat;
-  background-position: right 32px center;
   border: 5px solid #EEEEEE;
   border-radius: 8px;
   padding-left: 24px;
   cursor: pointer;
+}
+
+#correct{
+  display: flex;
+  flex-direction: column;
+  width: 984px;
+  height: 64px;
+  margin-top: 16px;
+  padding: 24px 40px;
+  border-radius: 8px;
+  background-color: #fff2f5;
+}
+
+#correct h3{
+  color: #e34e70;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#correct div{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 16px;
+}
+
+#correct div h4{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#correct div h5{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#wrong{
+  display: flex;
+  flex-direction: column;
+  width: 984px;
+  height: 64px;
+  margin-top: 16px;
+  padding: 24px 40px;
+  border-radius: 8px;
+  background-color: #eff2f5;
+}
+
+#wrong h3{
+  color: #0071bc;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#wrong div{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 16px;
+}
+
+#wrong div h4{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#wrong div h5{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.p_quiz_main_item_disappeared{
+  background-image: url(../img/icon/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right 32px center;
 }
 
 .p_quiz_main_tips{
