@@ -11,17 +11,33 @@
 
 <body>
     <header class="p_header">
-      <h1>
-        <img src="./assets/img/logo.svg" alt="POSSEロゴ">
-      </h1>
-      <nav>
-        <ul class="p_header_list">
-          <li><a href="index.html">POSSEとは</a></li>
-          <li><a href="./quiz/index.html">クイズ</a></li>
-          <li><a href="https://twitter.com/posse_program" class="p_header_border"><img src="./assets/img/icon/icon-twitter.svg" alt="Twitterアイコン"></a></li>
-          <li><a href="https://www.instagram.com/posse_programming/" class="p_header_border"><img src="./assets/img/icon/icon-instagram.svg" alt="インスタアイコン"></a></li>
-        </ul>
-      </nav>
+        <h1>
+          <img src="./assets/img/logo.svg" alt="POSSEロゴ">
+        </h1>
+        <nav>
+          <ul class="p_header_list">
+            <li><a href="index.html">POSSEとは</a></li>
+            <li><a href="./quiz/index.html">クイズ</a></li>
+            <li><a href="https://twitter.com/posse_program" class="p_header_border"><img src="./assets/img/icon/icon-twitter.svg" alt="Twitterアイコン"></a></li>
+            <li><a href="https://www.instagram.com/posse_programming/" class="p_header_border"><img src="./assets/img/icon/icon-instagram.svg" alt="インスタアイコン"></a></li>
+          </ul>
+        </nav>
+
+        <nav id="nav">
+          <ul>
+            <li><a href="#">SUMPLE1</a></li>
+            <li><a href="#">SUMPLE2</a></li>
+            <li><a href="#">SUMPLE3</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger">
+            <!-- 1番上の線 -->
+            <span class="inner_line" id="line1"></span>
+            <!-- 真ん中の線 -->
+            <span class="inner_line" id="line2"></span>
+            <!-- 1番下の線 -->
+            <span class="inner_line" id="line3"></span>
+        </div>
     </header>
     
     <main class="p_main">
@@ -31,7 +47,7 @@
             学生プログラミングコミュニティPOSSE(ポッセ)
           </h1>
           <h2>
-            自分史上最高<br>を仲間と。
+            自分史上最高を仲間と。
           </h2>
         </div>
         <p class="p_main_pic">
@@ -39,7 +55,7 @@
         </p>
         <p class="p_main_scrollDown">Scroll Down</p>
       </section>
-     
+    
       <a href="https://line.me/R/ti/p/@651htnqp?from=page" class="fixed_line">
         <div class="fixed_line_back">
           <img src="./assets/img/icon/icon-line.svg" alt="LINEアイコン" class="fixed_line_icon">
@@ -72,7 +88,9 @@
               <div class="p_main_line_back">
                 <img src="./assets/img/icon/icon-line.svg" alt="">
               </div>
+              <div class="p_main_line_caption">
               POSSE 公式LINE
+              </div>
             </h1>
             <p class="p_main_line_paragraph">公式LINEにてご質問を随時受け付けております。<br>
               詳細やPOSSE最新情報につきましては、公式LINEにてお知らせ致しますので<br>
@@ -107,5 +125,6 @@
         <h1>©2022 POSSE</h1>
       </section>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
